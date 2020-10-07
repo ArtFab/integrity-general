@@ -32,7 +32,7 @@ The implementaiton of assert across varuious languages is perplexing, to say the
 * In Java assert will throw an exception derived from 'Error' instead of derived from Exception which makes it dangerous to use, as much general error handling code only deals with exceptions derived from Exception. This makes it dangerous and unpredicatble to use assert.
 ### Asserts are bad
 Asserts can themselves introduce bugs, because of the way they have been implemented in the language. For example:
-* In PHP the assert function will evaluate the passed in variable and if it is a string execute it as code! The has been depecated, but still works.
+* In PHP the assert function will evaluate the passed in variable and if it is a string execute it as code! The has been deprecated, but still works.
 * In Python if you forget the assert syntax and call it like a function i.e.
 ```python
 assert(1 == 2) # incorrect assert sytax
