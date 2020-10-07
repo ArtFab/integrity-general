@@ -8,7 +8,7 @@ Language|Link
 Python | [GitHub integrity for python](https://github.com/RisingTyde/integrity-py)
 JavaScript | [GitHub integrity for JavScript (node & browser)](https://github.com/RisingTyde/integrity-js)
 c# | [GitHub integrity for c#](https://github.com/RisingTyde/integrity-cs)
-c++ | [GitHub integrity for c++)(https://github.com/RisingTyde/integrity-cpp)]
+c++ | [GitHub integrity for c++](https://github.com/RisingTyde/integrity-cpp)
 
 The intention is to provide a common interface so that as you switch between languages you can add integrity checks without having to remember different functions, or how they work. There are a set of core functions and some languages have some extra functions added to help with type checking.
 
